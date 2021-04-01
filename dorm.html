@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <script defer src="script/dorm.js"></script>
+    <style>
+        .dform{
+            width: fit-content;
+            height: fit-content;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="dform m-5 border p-4 form bg-dark form-group">
+        <form >
+            <label class=" text-primary">Number 1</label>
+            <input class="bg-primary text-dark badge-pill" type="number" name="fnum" id="fnum" value="20" ><br>
+
+            <label class="text-danger">Number 2</label>
+            <input type="number" class="mb-3 bg-danger text-dark badge-pill" name="snum" id="snum" value="30"><br>
+
+            <div class="operators ml-5">
+            <input  class="badge-pill btn-primary" type="button" value=" X " name="mul" id="mul"> 
+            <input class="badge-pill btn-warning" type="button" value=" \ " name="dvd" id="dvd" >
+            <input class="badge-pill btn-success" type="button" value=" + " name="adds" id="adds" >
+            <input class="badge-pill btn-danger" type="button" value=" - " name="subs" id="subs" >
+            </div>
+        </form>
+        <div class ="  text-center text-warning w-100" id="result" name="result" >
+              
+        </div>
+            
+    </div>
+</body>
+</html>

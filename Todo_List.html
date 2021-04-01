@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My ToDo List </title>
+    <link rel="stylesheet" href="styles/materialize/css/materialize.min.css">
+    <script defer src="script/todo.js"></script>
+    <link rel="stylesheet" href="styles/mtl.css">
+</head>
+
+<body class="black">
+
+    <div class="  container white-text">
+
+        <h1 class="red"> My JavaScript Todo List</h1>
+
+        <div id="todos">
+            <ul class="card black">
+                <li class="left card_title green-text" name="todo_text">Book Name</li>
+                
+                <li class=" right card_body yellow-text"> Date and Time</li>
+                <li class=" right card_body red-text"> Delete &nbsp;</li>
+                <li class=" right card_body blue-text"> Edit &nbsp;</li>
+
+                <li class="clearfix"></li>
+            </ul>
+        </div>
+        
+        <form id="form" name="form" action="">
+            <input type="text" class="red-text " id="todo_text" name="todo_text">
+            <button class="btn red white-text"> Add a new todo</button>
+
+        </form>
+    </div>
+
+<button id="cle"></button>
+</body>
+</html>

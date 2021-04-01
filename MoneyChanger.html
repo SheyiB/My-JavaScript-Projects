@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body-Changer</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <script defer src="script/bdychnger.js"></script>
+    <style>
+        #gnrl{
+            display: grid;
+            grid-template-columns: 50% 50%
+            
+        }
+
+        #mny{
+            
+            visibility: visible;
+            border-left: 30px solid crimson ;
+            
+            
+        }
+
+        #othr{
+            visibility: visible;
+            border-left: 30px solid darkblue ;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="gnrl">
+    <div id="othr">
+        <form class="text-center ml-5 " name="form" id="form">
+            <div class="form-group col-4 bg-info p-2 " >
+                <label for="">AMOUNT</label>
+                
+                <input type="number" name="amount" id="amount" class="form-control">
+            </div>
+            
+            <div class="form-group col-4 bg-danger p-2">
+                <label for="">1000</label>
+                <input type="number" readonly name="thousand" id="thousand" class="form-control">
+            </div>
+            
+            <div class="form-group col-4 bg-success p-2">
+                <label for="">500</label>
+                <input type="number" readonly name="fhundred" id="fhundred" class="form-control">
+            </div>
+        
+            <div class="form-group col-4 bg-warning p-2">
+                <label for="">200</label>
+                <input type="number" readonly name="thundred" id="thundred" class="form-control">
+            </div>
+        
+            <div class="form-group col-4 bg-secondary p-2">
+                <label for="">100</label>
+                <input type="number" readonly name="hundred" id="hundred" class="form-control">
+            </div>
+        
+            <div class="form-group col-4 bg-primary p-2">
+                <label for="">50</label>
+                <input type="number" readonly name="fifty" id="fifty" class="form-control">
+            </div>
+        
+            <div class="form-group col-4 bg-primary p-2">
+                <label for="">20</label>
+                <input type="number" readonly name="twenty" id="twenty" class="form-control">
+            </div>
+        
+            <div class="form-group col-4 bg-primary p-2">
+                <label for="">10</label>
+                <input type="number" readonly name="ten" id="ten" class="form-control">
+            </div>
+        
+            <div class="form-group col-4 bg-primary p-2">
+                <label for="">5</label>
+                <input type="number" readonly name="five" id="five" class="form-control">
+            </div>
+        
+            <input type="submit"  name="action" id="action" class="form-control col-4" value="Change Money"> 
+        
+        </form>
+    </div>
+    <div id="mny">
+    <form class="text-center ml-5 " name="form2" id="form2">
+    <div class="form-group col-4 bg-info p-2 " >
+        <label for="">AMOUNT</label>
+        
+        <input type="number" readonly name="amount2" id="amount2" class="form-control">
+    </div>
+    
+    <div class="form-group col-4 bg-danger p-2">
+        <label for="">1000</label>
+        <input type="number" name="thousand2" id="thousand2" class="form-control">
+    </div>
+    
+    <div class="form-group col-4 bg-success p-2">
+        <label for="">500</label>
+        <input type="number" name="fhundred2" id="fhundred2" class="form-control">
+    </div>
+
+    <div class="form-group col-4 bg-warning p-2">
+        <label for="">200</label>
+        <input type="number" name="thundred2" id="thundred2" class="form-control">
+    </div>
+
+    <div class="form-group col-4 bg-secondary p-2">
+        <label for="">100</label>
+        <input type="number" name="hundred2" id="hundred2" class="form-control">
+    </div>
+
+    <div class="form-group col-4 bg-primary p-2">
+        <label for="">50</label>
+        <input type="number" name="fifty2" id="fifty2" class="form-control">
+    </div>
+
+    <div class="form-group col-4 bg-primary p-2">
+        <label for="">20</label>
+        <input type="number" name="twenty2" id="twenty2" class="form-control">
+    </div>
+
+    <div class="form-group col-4 bg-primary p-2">
+        <label for="">10</label>
+        <input type="number" name="ten2" id="ten2" class="form-control">
+    </div>
+
+    <div class="form-group col-4 bg-primary p-2">
+        <label for="">5</label>
+        <input type="number" name="five2" id="five2" class="form-control">
+    </div>
+
+    <input type="submit" name="action2" id="action2" class="form-control col-4" value="Add Money"> 
+
+</form>
+</div>
+</div>
+</body>
+</html>
